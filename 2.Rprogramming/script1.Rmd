@@ -1,0 +1,9 @@
+---
+title: "Week 1 notebook"
+output: html_notebook
+---
+
+```{r}
+#This is a notebook to see if it works. 
+```
+
