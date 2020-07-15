@@ -92,7 +92,7 @@ colnames(final_df_ensayo) <-
 tidy_data_mean <- final_df_ensayo %>% group_by(subject, activity) %>% 
   summarise_all(., mean)
 
-write.table(tidy_data, "3.GettingandCleaningData/Week4/mean_by_subject_activities.txt")
+write.table(tidy_data, "3.GettingandCleaningData/Week4/mean_by_subject_activities.txt", row.names = FALSE)
 
 
 
